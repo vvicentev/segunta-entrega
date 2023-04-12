@@ -1,0 +1,275 @@
+header {
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
+  background-color: black;
+  align-items: center;
+  padding: 40px;
+  background: url(./images/kaw.png);
+  background-size: cover;
+  background-position: center;
+  height: 120px;
+  font-size: xx-large;
+}
+
+.logo {
+  display: flex;
+  height: 70px;
+  margin: 20px;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: rgb(255, 255, 255);
+}
+
+nav a {
+  font-weight: 600;
+  padding-right: 25px;
+}
+
+.centrar {
+  background-image: url(images/Desktop_-_2560x1440_-_1_1.webp);
+  height: 500px;
+  background-size: cover;
+}
+
+.carrito1 {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 20px 40px;
+  margin: 40px;
+  border-radius: 10px;
+  color: white;
+  background-color: black;
+}
+
+.carrito2 {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 20px 40px;
+  margin: 40px;
+  border-radius: 10px;
+  color: white;
+  background-color: black;
+}
+
+.carrito3 {
+  font-size: 1.5em;
+  font-weight: bold;
+  padding: 20px 40px;
+  margin: 40px;
+  border-radius: 10px;
+  color: white;
+  background-color: black;
+}
+
+.destacados {
+  margin: 50px;
+  padding: 20px;
+  text-align: center;
+}
+
+.contenedor {
+  display: flex;
+  justify-content: space-between;
+}
+
+.foto {
+  text-align: center;
+  padding: 20px 10px;
+  margin: 0px;
+  background-color: #eeeeee;
+}
+
+nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.nav {
+  display: inline-block;
+  margin: 0 10px;
+  color: #ffffff;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-weight: bold;
+  padding: 10px;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.nav:hover {
+  background-color: grey;
+  color: #fff;
+}
+
+.mi-boton {
+  transition: transform 0.3s ease;
+}
+.mi-boton:hover {
+  transform: translateY(-5px);
+}
+
+.foto img {
+  max-width: 80%;
+}
+
+.foto li {
+  font-family: "Urbanist", sans-serif;
+  font-size: x-large;
+}
+
+.foto h1 {
+  font-family: "Urbanist", sans-serif;
+  font-size: xx-large;
+}
+
+.duenos {
+  width: 100%;
+  margin: auto;
+}
+
+.product-image {
+  max-width: 100%;
+  height: auto;
+  border: 1px solid #ccc;
+}
+
+.mapa {
+  width: 100%;
+  height: 500px;
+}
+
+main {
+  display: grid;
+  grid-gap: 1rem;
+  grid-template-columns: 200px 200px 200px;
+  grid-template-rows: 1000px;
+  grid-column-gap: 500px;
+  grid-row-gap: 228px;
+  margin: 1%;
+}
+
+.video-container {
+  position: relative;
+  padding-bottom: 56.25%;
+  padding-top: 30px;
+  height: 0;
+  overflow: hidden;
+}
+
+.video-container iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+
+footer {
+  background-color: #f2f2f2;
+  padding: 10px;
+  text-align: center;
+}
+
+.sobre-nosotros {
+  text-align: center;
+  font-size: xx-large;
+}
+
+.texto-nosotros {
+  margin: 1%;
+  font-size: x-large;
+}
+
+button {
+  background-color: black;
+  color: white;
+  border-radius: 5%;
+  padding: 10px 20px;
+  font-size: 120%;
+}
+
+.fotos {
+  width: 600px;
+  height: 900px;
+  margin: auto;
+}
+
+body {
+  background-color: #f0f0f0;
+}
+
+/* formulario de contacto */
+
+form {
+  width: 500px;
+  margin: 0 auto;
+  text-align: left;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+label {
+  display: block;
+  margin-bottom: 10px;
+  font-size: 22px;
+  font-weight: bold;
+}
+
+input,
+textarea {
+  width: 100%;
+  padding: 12px 20px;
+  margin-bottom: 20px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-size: 16px;
+}
+
+input[type="submit"] {
+  background-color: #000000;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #0a0a0a;
+}
+
+/* no logré centrarlos, el logo de instragram está un poco más arriba*/
+
+.instagram {
+  width: 170px;
+  height: 170px;
+  margin: 10%;
+}
+
+.facebook {
+  width: 150px;
+  height: 150px;
+  margin: 10%;
+}
+
+.twitter {
+  width: 150px;
+  height: 150px;
+  margin: 10%;
+}
+
+.segui-balr {
+  text-align: center;
+  font-size: xx-large;
+}
